@@ -4,7 +4,7 @@ mv $(pwd)/Build/windows/$project_Data $FILENAME
 zip -r $FILENAME.zip
 
 echo "Deploy to Itch"
-wget http://dl.itch.ovh/butler/linux-amd64/head/butler
+wget http://dl.itch.ovh/butler/darwin-amd64/head/butler
 chmod +x butler
 touch butler_creds
 echo -n $ITCH_API_KEY > butler_creds

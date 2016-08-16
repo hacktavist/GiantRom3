@@ -6,7 +6,7 @@ project="PierceRealityAutoBuild"
 echo "Attempting to build $project for OS X"
 /Applications/Unity/Unity.app/Contents/MacOS/Unity \
   -batchmode \
-  -nographics \
+  #-nographics \
   -silent-crashes \
   -logFile $(pwd)/unity.log \
   -projectPath $(pwd) \

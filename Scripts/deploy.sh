@@ -1,6 +1,6 @@
 FILENAME="$(pwd)/PierceRealityWindowsBuild"
-#mv $(pwd)/Build/windows/$project.exe $FILENAME
-#mv $(pwd)/Build/windows/$project_Data $FILENAME
+mv $(pwd)/Build/windows/$project.exe $FILENAME
+mv $(pwd)/Build/windows/$project_Data $FILENAME
 zip -r $(pwd).zip
 
 echo "Deploy to Itch"

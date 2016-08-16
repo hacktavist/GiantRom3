@@ -14,10 +14,6 @@ echo 'Attempting to build $project for Windows'
   -quit
 
 
-
-
-
-
 echo 'Logs from build'
 cat $(pwd)/unity.log
 

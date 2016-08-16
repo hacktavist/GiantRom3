@@ -5,16 +5,15 @@ project="PierceRealityAutoBuild"
 
 echo 'Attempting to build $project for Windows'
 /Applications/Unity/Unity.app/Contents/MacOS/Unity \
-#C:/Program\ Files/Unity/Editor/Unity.exe \
   -batchmode \
   -nographics \
   -silent-crashes \
   -logFile $(pwd)/unity.log \
-  -projectPath "$(pwd)" \
+  -projectPath $(pwd) \
   -buildWindowsPlayer "$(pwd)/Build/windows/$project.exe" \
   -quit
 
-sleep 1m
+
 
 
 FILENAME="$(pwd)PierceRealityWindowsBuild"

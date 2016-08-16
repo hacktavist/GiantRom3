@@ -1,2 +1,7 @@
 language: objective-c
-oxs_image: xcode8
+osx_image: xcode8
+
+install:
+- ./Scripts/install.sh
+script:
+- ./Scripts/build.sh

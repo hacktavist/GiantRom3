@@ -1,6 +1,6 @@
 FILENAME="$(pwd)/PierceRealityWindowsBuild"
-mv $(pwd)/Build/windows/$project.exe $FILENAME
-mv $(pwd)/Build/windows/$project_Data $FILENAME
+#mv $(pwd)/Build/windows/$project.exe $FILENAME
+#mv $(pwd)/Build/windows/$project_Data $FILENAME
 zip -r $(pwd).zip
 
 echo "Deploy to Itch"
@@ -9,7 +9,7 @@ chmod +x butler
 touch butler_creds
 echo -n $ITCH_API_KEY > butler_creds
 
-./butler push $FILENAME.zip hacktavist/testing-travisci-deployment:windows -i butler_creds
+./butler push $(pwd).zip hacktavist/testing-travisci-deployment:windows -i butler_creds
 
 echo "Cleaning"
 

@@ -1,7 +1,6 @@
 FILENAME="$(pwd)/PierceRealityWindowsBuild"
-#mv $(pwd)/Build/windows/$project.exe $FILENAME
-#mv $(pwd)/Build/windows/$project_Data $FILENAME
-zip -r $(pwd).zip
+
+zip -r $FILENAME.zip $FILENAME
 
 echo "Deploy to Itch"
 wget http://dl.itch.ovh/butler/darwin-amd64/head/butler

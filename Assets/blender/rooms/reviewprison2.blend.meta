@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 5627131fc24684a4fba589f7e74942ce
+timeCreated: 1471545341
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box02
+    100002: cart_1
+    100004: cart_2
+    100006: cart_3
+    100008: cart_4
+    100010: cart_5
+    100012: cart_6
+    100014: Computer
+    100016: Cube
+    100018: light_1
+    100020: light_2
+    100022: light_3
+    100024: light_4
+    100026: mattress
+    100028: nightstand
+    100030: nightstand_001
+    100032: Omni01
+    100034: Omni02
+    100036: Pillow
+    100038: //RootNode
+    100040: toilet
+    100042: tp1
+    100044: tp2
+    100046: tp3
+    100048: VR_chamber
+    100050: VR_chamber_MeshPart0
+    100052: VR_chamber_MeshPart1
+    400000: Box02
+    400002: cart_1
+    400004: cart_2
+    400006: cart_3
+    400008: cart_4
+    400010: cart_5
+    400012: cart_6
+    400014: Computer
+    400016: Cube
+    400018: light_1
+    400020: light_2
+    400022: light_3
+    400024: light_4
+    400026: mattress
+    400028: nightstand
+    400030: nightstand_001
+    400032: Omni01
+    400034: Omni02
+    400036: Pillow
+    400038: //RootNode
+    400040: toilet
+    400042: tp1
+    400044: tp2
+    400046: tp3
+    400048: VR_chamber
+    400050: VR_chamber_MeshPart0
+    400052: VR_chamber_MeshPart1
+    2300000: Box02
+    2300002: cart_1
+    2300004: cart_2
+    2300006: cart_3
+    2300008: cart_4
+    2300010: cart_5
+    2300012: cart_6
+    2300014: Computer
+    2300016: Cube
+    2300018: light_1
+    2300020: light_2
+    2300022: light_3
+    2300024: light_4
+    2300026: mattress
+    2300028: nightstand
+    2300030: nightstand_001
+    2300032: Omni01
+    2300034: Omni02
+    2300036: Pillow
+    2300038: toilet
+    2300040: tp1
+    2300042: tp2
+    2300044: tp3
+    2300046: VR_chamber_MeshPart0
+    2300048: VR_chamber_MeshPart1
+    3300000: Box02
+    3300002: cart_1
+    3300004: cart_2
+    3300006: cart_3
+    3300008: cart_4
+    3300010: cart_5
+    3300012: cart_6
+    3300014: Computer
+    3300016: Cube
+    3300018: light_1
+    3300020: light_2
+    3300022: light_3
+    3300024: light_4
+    3300026: mattress
+    3300028: nightstand
+    3300030: nightstand_001
+    3300032: Omni01
+    3300034: Omni02
+    3300036: Pillow
+    3300038: toilet
+    3300040: tp1
+    3300042: tp2
+    3300044: tp3
+    3300046: VR_chamber_MeshPart0
+    3300048: VR_chamber_MeshPart1
+    4300000: Cube
+    4300002: Omni02
+    4300004: Omni01
+    4300006: Box02
+    4300008: cart_6
+    4300010: cart_5
+    4300012: cart_4
+    4300014: cart_2
+    4300016: cart_3
+    4300018: cart_1
+    4300020: Pillow
+    4300022: nightstand_001
+    4300024: Computer
+    4300026: mattress
+    4300028: tp3
+    4300030: tp2
+    4300032: tp1
+    4300034: light_4
+    4300036: light_3
+    4300038: light_2
+    4300040: light_1
+    4300042: nightstand
+    4300044: toilet
+    4300046: VR_chamber_MeshPart0
+    4300048: VR_chamber_MeshPart1
+    6400000: Box02
+    6400002: cart_1
+    6400004: cart_2
+    6400006: cart_3
+    6400008: cart_4
+    6400010: cart_5
+    6400012: cart_6
+    6400014: Computer
+    6400016: Cube
+    6400018: light_1
+    6400020: light_2
+    6400022: light_3
+    6400024: light_4
+    6400026: mattress
+    6400028: nightstand
+    6400030: nightstand_001
+    6400032: Omni01
+    6400034: Omni02
+    6400036: Pillow
+    6400038: toilet
+    6400040: tp1
+    6400042: tp2
+    6400044: tp3
+    6400046: VR_chamber_MeshPart0
+    6400048: VR_chamber_MeshPart1
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

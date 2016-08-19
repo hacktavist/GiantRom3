@@ -577,7 +577,7 @@ Prefab:
     - target: {fileID: 224000014177588786, guid: 814dc164f9ce12b40a8d86fd3346c5f9,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114000011141916110, guid: 814dc164f9ce12b40a8d86fd3346c5f9,
         type: 2}
@@ -2076,7 +2076,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 7d3bd0892b4c8d34994031405fddd6aa, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -5429,7 +5429,7 @@ MonoBehaviour:
   - {fileID: 919148764}
   orderScreen: {fileID: 2032674706}
   clip: {fileID: 8300000, guid: 6d9c38ebee2f9d046ba53d13d19d9ade, type: 3}
-  startTime: 10
+  startTime: 15
 --- !u!82 &1980335400
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5530,7 +5530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 9f911cc6be720a5439f7bea888a91221, type: 3}
-  startTime: 40
+  startTime: 55
   camEffect: {fileID: 1792250907}
 --- !u!114 &1980335403
 MonoBehaviour:
@@ -5544,7 +5544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b7d3190631d8271479b420bb17495138, type: 3}
-  startTime: 30
+  startTime: 45
 --- !u!114 &1980335404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5557,7 +5557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 433f5580f9c2d624c87747fab5a54b38, type: 3}
-  startTime: 25
+  startTime: 35
 --- !u!114 &1980335405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5570,7 +5570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 4fa24bece3a4bea4d8a48f0d147f6912, type: 3}
-  startTime: 15
+  startTime: 22
 --- !u!114 &1980335406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5625,7 +5625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd1ee24f6e3eec4384254353f893a29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 43
+  startTime: 58
   levelToLoad: SiloScene
   camEffect: {fileID: 1792250907}
 --- !u!1 &1989766738 stripped

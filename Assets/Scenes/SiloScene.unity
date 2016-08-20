@@ -149,7 +149,9 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 115
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6400010, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
+    - {fileID: 6400008, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
   m_IsPrefabParent: 0
 --- !u!1 &70232423
@@ -366,7 +368,9 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 45
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6400010, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
+    - {fileID: 6400008, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
   m_IsPrefabParent: 0
 --- !u!1 &200241899
@@ -958,7 +962,9 @@ Prefab:
       propertyPath: m_Name
       value: SKULLICOPTER (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6400010, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
+    - {fileID: 6400008, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
   m_IsPrefabParent: 0
 --- !u!1 &583336062 stripped
@@ -1376,7 +1382,9 @@ Prefab:
       propertyPath: m_Name
       value: SKULLICOPTER (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6400010, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
+    - {fileID: 6400008, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
   m_IsPrefabParent: 0
 --- !u!1 &787702325
@@ -1945,7 +1953,9 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6400010, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
+    - {fileID: 6400008, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
   m_IsPrefabParent: 0
 --- !u!1 &1186613463
@@ -3297,7 +3307,9 @@ Prefab:
       propertyPath: m_Name
       value: SKULLICOPTER (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6400010, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
+    - {fileID: 6400008, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: d6403f937a3e9bd49af6ebfed740c006, type: 3}
   m_IsPrefabParent: 0
 --- !u!1 &1945198076 stripped

@@ -24,7 +24,6 @@ public class LadderBehaviour: MonoBehaviour {
     if (c.tag == "Player") {
       buttonPressInteract.text = "";
       buttonToPress.enabled = false;
-      //climb = false;
       player.GetComponent<FirstPersonController>().m_GravityMultiplier = 2f;
     }
   }

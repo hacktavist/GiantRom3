@@ -20,10 +20,21 @@ public class CheckVideo : MonoBehaviour {
     //  StartCoroutine(WaitingForMovie(movie.movie.duration, OnWaitFinish));
     //}
 	}
+
   public void OnWaitFinish() {
-    load.CrossFadeAlpha(1f, 3f, true);
-    SceneManager.LoadScene(levelToLoad);
+        InitiateCrossFade();
+        ChangeScenes();
   }
+
+    public void InitiateCrossFade()
+    {
+        load.CrossFadeAlpha(1f, 3f, true);
+    }
+
+    public void ChangeScenes()
+    {
+        SceneManager.LoadScene(levelToLoad);
+    }
 
   public IEnumerator WaitingForMovie(float duration, System.Action callback){
     while (movie.movie.isPlaying) {

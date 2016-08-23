@@ -1,14 +1,18 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System;
 
 public class StartProjector : MonoBehaviour {
+    
+    public float bufferTime = 3F;
 
     public MovieTexture movie;
 
     private GameObject screen;
     private AudioSource audioSource;
     private CheckVideo cv;
+    private bool movieStarted = false;
+    private float movieDuration;
+    private float currentTime = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -21,17 +25,34 @@ public class StartProjector : MonoBehaviour {
         screen.GetComponent<Renderer>().material.mainTexture = movie;
         audioSource = screen.GetComponent<AudioSource>();
         audioSource.clip = movie.audioClip;
-        //cv = GetComponent<CheckVideo>();
+        cv = GetComponent<CheckVideo>();
+
+        movieDuration = movie.duration;
+    }
+
+    void Update()
+    {
+        if (movieStarted)
+        {
+            currentTime += Time.deltaTime;
+            if (currentTime > movieDuration)
+            {
+                cv.InitiateCrossFade();
+                if (currentTime > movieDuration + bufferTime)
+                {
+                    cv.ChangeScenes();
+                }
+            }
+        }
     }
 
     void OnTriggerStay(Collider c)
     {
         if (c.tag == "Player" && Input.GetKeyDown(KeyCode.E) && !movie.isPlaying)
         {
-            Debug.Log("Playing videos");
             audioSource.Play();
             movie.Play();
-            //StartCoroutine(cv.WaitingForMovie(movie.duration, cv.OnWaitFinish));
+            movieStarted = true;
         }
     }
 }

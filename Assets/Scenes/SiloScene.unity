@@ -1296,6 +1296,21 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010975145282, guid: 8f406bf276a92e24897a50e6eca1571b,
+        type: 2}
+      propertyPath: m_WalkSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010975145282, guid: 8f406bf276a92e24897a50e6eca1571b,
+        type: 2}
+      propertyPath: m_RunSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010975145282, guid: 8f406bf276a92e24897a50e6eca1571b,
+        type: 2}
+      propertyPath: m_StepInterval
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f406bf276a92e24897a50e6eca1571b, type: 2}
   m_IsPrefabParent: 0

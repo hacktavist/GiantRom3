@@ -1,0 +1,46 @@
+﻿using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System.Collections;
+
+public class CheckVideo : MonoBehaviour {
+  public string levelToLoad = "Credits";
+  StartProjector movie;
+  Image load;
+	// Use this for initialization
+	void Start () {
+    movie = gameObject.GetComponentInChildren<StartProjector>();
+    load = GameObject.Find("Load").GetComponent<Image>();
+    load.CrossFadeAlpha(0f, 0f, true);
+	}
+	
+	// Update is called once per frame
+	void Update () {
+    //if (movie.movie.isPlaying) {
+    //  StartCoroutine(WaitingForMovie(movie.movie.duration, OnWaitFinish));
+    //}
+	}
+
+  public void OnWaitFinish() {
+        InitiateCrossFade();
+        ChangeScenes();
+  }
+
+    public void InitiateCrossFade()
+    {
+        load.CrossFadeAlpha(1f, 3f, true);
+    }
+
+    public void ChangeScenes()
+    {
+        SceneManager.LoadScene(levelToLoad);
+    }
+
+  public IEnumerator WaitingForMovie(float duration, System.Action callback){
+    while (movie.movie.isPlaying) {
+      yield return 0;
+    }
+    callback();
+    yield break;
+  }
+}

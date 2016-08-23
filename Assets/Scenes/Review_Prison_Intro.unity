@@ -692,6 +692,10 @@ Prefab:
       propertyPath: repeat
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 165034, guid: bd8775fb78197c346aab1aeec240268b, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd8775fb78197c346aab1aeec240268b, type: 2}
   m_IsPrefabParent: 0
@@ -704,31 +708,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012339149564, guid: 8f406bf276a92e24897a50e6eca1571b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.88056546
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 4000012339149564, guid: 8f406bf276a92e24897a50e6eca1571b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.23
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 4000012339149564, guid: 8f406bf276a92e24897a50e6eca1571b, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.8636906
+      value: 0.32
       objectReference: {fileID: 0}
     - target: {fileID: 4000012339149564, guid: 8f406bf276a92e24897a50e6eca1571b, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4000012339149564, guid: 8f406bf276a92e24897a50e6eca1571b, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.9267136
       objectReference: {fileID: 0}
     - target: {fileID: 4000012339149564, guid: 8f406bf276a92e24897a50e6eca1571b, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4000012339149564, guid: 8f406bf276a92e24897a50e6eca1571b, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.37576854
       objectReference: {fileID: 0}
     - target: {fileID: 4000012339149564, guid: 8f406bf276a92e24897a50e6eca1571b, type: 2}
       propertyPath: m_RootOrder
@@ -751,17 +755,21 @@ Prefab:
     - target: {fileID: 114000010975145282, guid: 8f406bf276a92e24897a50e6eca1571b,
         type: 2}
       propertyPath: m_WalkSpeed
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114000010975145282, guid: 8f406bf276a92e24897a50e6eca1571b,
         type: 2}
       propertyPath: m_RunSpeed
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114000010975145282, guid: 8f406bf276a92e24897a50e6eca1571b,
         type: 2}
       propertyPath: m_StepInterval
-      value: 10
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012339149564, guid: 8f406bf276a92e24897a50e6eca1571b, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 135.95601
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f406bf276a92e24897a50e6eca1571b, type: 2}
